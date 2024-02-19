@@ -4,10 +4,16 @@
  */
 
 .heroBanner {
+  /* // @apply bg-[url('/images/landing-back.jpg')] bg-cover bg-center bg-no-repeat h-screen relative; */
+  background: url(/img/landing-back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  display:block !important;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +26,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.screenshot {
+  width: 40%;
+  text-align: center;
+  padding: 1rem;
+  
+  img {
+    border: solid 4px #2d2d2d;
+    height:400px;
+  }
+}
+
+.info {
+  width: 60%;
+  padding-top: 6rem;
+}
+
+.bigLogo   {
+  /* background-color: black; */
+  border-radius: 4rem;
+  filter: brightness(150%);
+}
+.signUpSection {
+  margin-top:2rem;
+  display: block;
+}
+.bannerLayout {
+  margin-top:4rem;
+  width: 100%;
+  display: flex;
 }
