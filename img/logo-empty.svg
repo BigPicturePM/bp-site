@@ -11,8 +11,5 @@
         <path d="M112.322 205.436 112.429 205.378 101.781 187 45 285.062C77.0564 319.496 122.066 339.044 169.192 339 175.812 338.986 182.426 338.591 189 337.816Z"
               fill="#755DD9" fill-rule="evenodd"/>
         <path d="M120 120 7.25044 120C-8.25407 171.309 1.4128 226.92 33.3252 270Z" fill="#45A5ED" fill-rule="evenodd"/>
-        <text fill="#f3e6bb" font-family="Consolas,Consolas_MSFontService,sans-serif" font-weight="700" font-size="107"
-              transform="translate(113.976 206)">BP
-        </text>
     </g>
 </svg>
