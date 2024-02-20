@@ -79,11 +79,7 @@ const config: Config = {
           items: [
             {
               label: 'Substack',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://bigpictureprojects.substack.com',
             },
           ],
         },
