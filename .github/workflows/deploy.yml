@@ -43,3 +43,4 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: pburrows
           user_email: pburrows@burrowscorp.com
+          cname: bigpicture.site
