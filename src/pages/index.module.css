@@ -35,13 +35,13 @@
   
   img {
     border: solid 4px #2d2d2d;
-    height:400px;
+    max-height:400px;
   }
 }
 
 .info {
   width: 60%;
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 
 .bigLogo   {
@@ -50,11 +50,30 @@
   filter: brightness(150%);
 }
 .signUpSection {
-  margin-top:2rem;
+  border-top: solid 1px #78498f;
+  padding-top: 2rem;
+  margin-top:4rem;
   display: block;
+  margin-bottom: 2rem;
 }
 .bannerLayout {
   margin-top:4rem;
   width: 100%;
   display: flex;
+}
+
+@media screen and (max-width: 996px) {
+  .bannerLayout {
+    display:block;
+  }
+  .info {
+    width: 100%;
+    padding-top: 0;
+  }
+  .screenshot {
+    width: 100%;
+  }
+  .heroBanner {
+    padding: 4px;
+  }
 }
