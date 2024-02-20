@@ -38,4 +38,20 @@
         </author>
         <category label="development" term="development"/>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[Kicking It Off]]></title>
+        <id>https://bigpicture.site/blog/welcome-big-picture</id>
+        <link href="https://bigpicture.site/blog/welcome-big-picture"/>
+        <updated>2024-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello and welcome to Big Picture. My name is Patrick Burrows and I will be your host through this Journey to Production™.]]></summary>
+        <content type="html"><![CDATA[<p>Hello and welcome to Big Picture. My name is Patrick Burrows and I will be your host through this Journey to Production™.</p>
+<p>Along the way we will outline the goals of Big Picture, explain the value BP provides, ask for feedback, express frustrations, cry, scream, lose hair, get older, and ultimately realize things are actually working pretty well after all.</p>
+<p>You will learn more about who I am, my (no-doubt) overly idealistic view of the world that informs this project, some technical details about how Big Picture is being built, and hopefully come away inspired by the moxy and audacity an undertaking such as this requires.</p>
+<p>Sign-up below for updates and follow the progress of Big Picture as we go from conception to production and everything else along the way!</p>]]></content>
+        <author>
+            <name>Patrick Burrows</name>
+            <uri>https://bigpicture.site</uri>
+        </author>
+        <category label="development" term="development"/>
+    </entry>
 </feed>

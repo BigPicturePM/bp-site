@@ -35,5 +35,17 @@
 <p>When creating fields and details of a work item, the conversation about that item is the primary focus. To the point that things like acceptance criteria and task details can be added and edited via conversation messages.</p>]]></content:encoded>
             <category>development</category>
         </item>
+        <item>
+            <title><![CDATA[Kicking It Off]]></title>
+            <link>https://bigpicture.site/blog/welcome-big-picture</link>
+            <guid>https://bigpicture.site/blog/welcome-big-picture</guid>
+            <pubDate>Mon, 19 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello and welcome to Big Picture. My name is Patrick Burrows and I will be your host through this Journey to Production™.]]></description>
+            <content:encoded><![CDATA[<p>Hello and welcome to Big Picture. My name is Patrick Burrows and I will be your host through this Journey to Production™.</p>
+<p>Along the way we will outline the goals of Big Picture, explain the value BP provides, ask for feedback, express frustrations, cry, scream, lose hair, get older, and ultimately realize things are actually working pretty well after all.</p>
+<p>You will learn more about who I am, my (no-doubt) overly idealistic view of the world that informs this project, some technical details about how Big Picture is being built, and hopefully come away inspired by the moxy and audacity an undertaking such as this requires.</p>
+<p>Sign-up below for updates and follow the progress of Big Picture as we go from conception to production and everything else along the way!</p>]]></content:encoded>
+            <category>development</category>
+        </item>
     </channel>
 </rss>

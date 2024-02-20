@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbp_site_docusaurus=self.webpackChunkbp_site_docusaurus||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Big Picture Vision","permalink":"/blog/big-picture-vision","unlisted":false}]}')}}]);
