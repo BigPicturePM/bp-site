@@ -48,6 +48,7 @@
   /* background-color: black; */
   border-radius: 4rem;
   filter: brightness(150%);
+  max-height: 200px;
 }
 .signUpSection {
   border-top: solid 1px #78498f;
