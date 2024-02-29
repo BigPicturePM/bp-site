@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/logo-open.svg').default,
     description: (
       <>
-        Unlimited projects, users, guests, tasks, lists, messages and everything else. Pay only for what you use.
+        Unlimited projects, users, guests, tasks, lists, messages, and everything else. Pay only for what you use.
       </>
     ),
   },
