@@ -14,7 +14,7 @@ export default function Home(): JSX.Element {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Big Picture project management and collaboration tool.">
+            description="The all-in-one collaboration tool for businesses and projects.">
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>
