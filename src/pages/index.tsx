@@ -33,7 +33,8 @@ function HomepageHeader() {
                     <Heading as="h1" className="hero__title">
                         {siteConfig.title}
                     </Heading>
-                    <p className="hero__subtitle">{siteConfig.tagline}</p>
+                    <h3 className="hero__subtitle">{siteConfig.tagline}</h3>
+                        <p>Replace Slack and Teams, Jira and Asana, Confluence and Sharepoint, with a single app.</p>
                 </div>
                 <div className={styles.screenshot}>
                     <img src="/img/screenshot.png" alt="Big Picture Screenshot"/>
