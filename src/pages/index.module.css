@@ -29,6 +29,7 @@
 }
 
 .screenshot {
+  color: white;
   width: 40%;
   text-align: center;
   padding: 1rem;
@@ -42,6 +43,7 @@
 .info {
   width: 60%;
   padding-top: 4rem;
+  color: white;
 }
 
 .bigLogo   {
@@ -51,6 +53,7 @@
   max-height: 200px;
 }
 .signUpSection {
+  color: white;
   border-top: solid 1px #78498f;
   padding-top: 2rem;
   margin-top:4rem;

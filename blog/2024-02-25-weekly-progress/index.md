@@ -13,6 +13,8 @@ September or not, though, these stand-up posts will help chart the progress as I
 
 The below updates constitute more than a week's worth of work. These recent changes probably represent closer to 2-3 weeks worth of work. I've been working on this project for a couple months now (since the first of December, really), so there are a lot of technical decisions already made that I've not covered in blog posts. But since this is the first "stand-up" post, there is more to cover this week than there will be in future weeks.
 
+<!--truncate-->
+
 ## What Did You Work on This Week?
 
 ### UI Updates
