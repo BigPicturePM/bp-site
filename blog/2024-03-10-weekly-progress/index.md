@@ -49,7 +49,7 @@ I also got a functional version of the View Task screen working this week.
 
 The layout is similar (though slightly different, and slightly more detailed) to the Activity View task cards, but has some additional features and actions. This screen is far from "done", but it is functional right now. I imagine this screen and the Activity View screen will be a constant target of enhancements and additional features. 
 
-### What Will You Work on Next Week?
+## What Will You Work on Next Week?
 
 This week is my last planned week of the "tasks" epic, and I think it comes at a good time. The task screens are functional right now and spending one more week working on them will allow me to add convenience features and some nice-to-have items before I move onto the "conversations" epic (which will also effect these screens.)
 
