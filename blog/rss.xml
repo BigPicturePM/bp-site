@@ -4,10 +4,45 @@
         <title>Big Picture Project Collaboration Blog</title>
         <link>https://bigpicture.site/blog</link>
         <description>Big Picture Project Collaboration Blog</description>
-        <lastBuildDate>Sun, 10 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Conversations, Web Sockets, and Different Content]]></title>
+            <link>https://bigpicture.site/blog/2024-03-17-weekly-standup</link>
+            <guid>https://bigpicture.site/blog/2024-03-17-weekly-standup</guid>
+            <pubDate>Sun, 17 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week I did nothing that I planned on doing last week. Rather, I started work on the conversations feature. Mainly, I started implementing websocket support in the app. Up to now, everything has been REST api calls to the backend. But for things like conversations, presence (whether or not someone is online, offline, idle, or in some other state), unread tracking, and notifications, using websockets for real-time communication sent from the server is a must.]]></description>
+            <content:encoded><![CDATA[<p>This week I did nothing that I planned on doing last week. Rather, I started work on the conversations feature. Mainly, I started implementing websocket support in the app. Up to now, everything has been REST api calls to the backend. But for things like conversations, presence (whether or not someone is online, offline, idle, or in some other state), unread tracking, and notifications, using websockets for real-time communication sent from the server is a must.</p>
+<p>As such, this week probably doesn't have as many screenshots as in the past week, because most of the work was not visible, UI, work.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-did-you-do-this-week">What Did You Do This Week?<a href="https://bigpicture.site/blog/2024-03-17-weekly-standup#what-did-you-do-this-week" class="hash-link" aria-label="Direct link to What Did You Do This Week?" title="Direct link to What Did You Do This Week?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="content-marketing-ideas">Content Marketing Ideas<a href="https://bigpicture.site/blog/2024-03-17-weekly-standup#content-marketing-ideas" class="hash-link" aria-label="Direct link to Content Marketing Ideas" title="Direct link to Content Marketing Ideas">​</a></h3>
+<p>I spent a lot of time brainstorming marketing ideas for website and blog content. I tried to focus in on the sorts of things other vendors blog about, and come up with some good ideas for that. I don't have a lot of time to write, but there are services that will assist with this part of it.</p>
+<p>I also worked more on the newsletter idea. I found a lot of sources for content and actually got to the point of generating the newsletter. The issue (pardon the pun!) right now is that there is TOO MUCH content. I need to implement some sort of relevance filter (spam/ham) to weed out the less interesting posts.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="conversations">Conversations<a href="https://bigpicture.site/blog/2024-03-17-weekly-standup#conversations" class="hash-link" aria-label="Direct link to Conversations" title="Direct link to Conversations">​</a></h3>
+<p>I was able to get a conversation message to post back to the server (which involves going from the UI through the gateway to the backend microservices, and back) and return results to connected clients. I didn't quite get displaying the messages implemented, but the messages are getting IDs and are being parsed on the backend.</p>
+<p>The backend message parsing involves:</p>
+<ul>
+<li>checking for mentions,<!-- -->
+<ul>
+<li>notifying the people mentioned</li>
+</ul>
+</li>
+<li>checking for tags,<!-- -->
+<ul>
+<li>notifying the people following those tags</li>
+</ul>
+</li>
+<li>checking for, and performing, any slash commands,</li>
+<li>checking for embedded URLs,</li>
+<li>marking conversations unread</li>
+</ul>
+<p>For the embedded URLs, it turns out there wasn't a good implementation of "unfurl" in dotnet that I could find. So I wrote one and made it open source. The <a href="https://github.com/pburrows/unfurl.net/" target="_blank" rel="noopener noreferrer">unfurl.net</a> project is hosted on GitHub and published as a NuGet package for anyone who needs this functionality in .Net.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-will-you-work-on-next-week">What Will You Work on Next Week?<a href="https://bigpicture.site/blog/2024-03-17-weekly-standup#what-will-you-work-on-next-week" class="hash-link" aria-label="Direct link to What Will You Work on Next Week?" title="Direct link to What Will You Work on Next Week?">​</a></h2>
+<p>This coming week will see more work on conversations, hopefully getting into multiple-clients and multiple-tenant scenarios, and more work on the newsletter functionality. I'd really like to publish the first version of the newsletter this week if I can.</p>]]></content:encoded>
+            <category>development</category>
+        </item>
         <item>
             <title><![CDATA[Weekly Standup: Task List Filters, View Task, and a Newsletter???]]></title>
             <link>https://bigpicture.site/blog/2024-03-10-weekly-standup</link>
@@ -36,7 +71,7 @@
 <p>I also got a functional version of the View Task screen working this week.</p>
 <p><img decoding="async" loading="lazy" alt="view task" src="https://bigpicture.site/assets/images/view-task-screen-4e0c1c025b73dbd3b486741684b707f1.png" width="974" height="859" class="img_ev3q"></p>
 <p>The layout is similar (though slightly different, and slightly more detailed) to the Activity View task cards, but has some additional features and actions. This screen is far from "done", but it is functional right now. I imagine this screen and the Activity View screen will be a constant target of enhancements and additional features.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-will-you-work-on-next-week">What Will You Work on Next Week?<a href="https://bigpicture.site/blog/2024-03-10-weekly-standup#what-will-you-work-on-next-week" class="hash-link" aria-label="Direct link to What Will You Work on Next Week?" title="Direct link to What Will You Work on Next Week?">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-will-you-work-on-next-week">What Will You Work on Next Week?<a href="https://bigpicture.site/blog/2024-03-10-weekly-standup#what-will-you-work-on-next-week" class="hash-link" aria-label="Direct link to What Will You Work on Next Week?" title="Direct link to What Will You Work on Next Week?">​</a></h2>
 <p>This week is my last planned week of the "tasks" epic, and I think it comes at a good time. The task screens are functional right now and spending one more week working on them will allow me to add convenience features and some nice-to-have items before I move onto the "conversations" epic (which will also effect these screens.)</p>
 <p>This week I want to add some task actions (like cloning or linking), I want to get subtasks displaying better (right now you can have deeply nested subtasks that are hard to find), and maybe individual task expansion on the activity view screen. Some of the subtask stuff will get fixed when I get to the "navigation" epic, too. Right now the sidebar navigation in the app is minimal and not fully fleshed out. But I needed to be able to add content before I can get the nav working. The search feature will also improve the subtask discovery. So much exciting stuff to do.</p>
 <p>Another thing I want to try and work on this week is a public "roadmap" that shows the features and epics I have planned and when I plan on getting to them. I am keeping track of them myself, of course, but if I am "building in public" it would be nice to publish my roadmap too.</p>

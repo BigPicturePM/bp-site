@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbp_site_docusaurus=self.webpackChunkbp_site_docusaurus||[]).push([[3255],{4576:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/development","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
