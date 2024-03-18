@@ -7,6 +7,8 @@ tags: [development]
 
 I feel like I wasted (squandered, blew) part of this week, yet I still managed to accomplish my goals. I need to be less judgemental about myself. Everything I had planned to do was finished, and I also worked on an idea for a newsletter (more on that below.) I also woke up "late" a couple days (5:30 instead of 4:30) and right now, the day where we welcome daylight savings time back into our lives, I am sitting down and writing at 6:20 in the morning. Very late, indeed! But it is all ok. I can't even tell myself that "setbacks are ok, they are bound to happen," because there were no setbacks! So why do I feel that I could have been more productive this week? Perhaps I could, though I try to reject this "productivity culture" that hurts America, the thoughts still seep in.
 
+<!--truncate-->
+
 ## What Did You Do This Week?
 
 ### Newsletter Idea

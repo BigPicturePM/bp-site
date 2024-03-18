@@ -9,6 +9,8 @@ This week I did nothing that I planned on doing last week. Rather, I started wor
 
 As such, this week probably doesn't have as many screenshots as in the past week, because most of the work was not visible, UI, work.
 
+<!--truncate-->
+
 ## What Did You Do This Week?
 
 ### Content Marketing Ideas
